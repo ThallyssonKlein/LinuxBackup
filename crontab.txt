@@ -21,5 +21,6 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-0 0 * * * rm -rf /home/thallyssonklein/Pictures*
+0 0 * * * rm -rf /home/thallyssonklein/Pictures/*
 0 0 1 * * /usr/bin/python3 /home/thallyssonklein/Desktop/Projects/ScriptsPlaygroundPublic/file_management/clean_trashmain.py
+0 0 * * * rm -rf /home/thallyssonklein/Downloads/Telegram\ Desktop/*
