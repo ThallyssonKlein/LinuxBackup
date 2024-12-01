@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Heptabase
+Exec=/opt/Heptabase/Heptabase.AppImage --no-sandbox
+Icon=/opt/Heptabase/Heptabase_Logo.png
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupWMClass=project-meta
+~                             

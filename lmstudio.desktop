@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LMStudio
+Exec=/opt/LMStudio/LMStudio.AppImage --no-sandbox
+Icon=/opt/LMStudio/lm-studio-logo.png
+Type=Application
+Categories=Utility;
+Terminal=false
+StartupWMClass=lm studio
