@@ -4,6 +4,7 @@ alias logs='sudo docker logs'
 alias ps='sudo docker ps'
 alias drm='sudo docker rm'
 export NVM_DIR="$HOME/.nvm"
+alias llm="/home/thallyssonklein/Desktop/Projects/llama.cpp/llama-cli -m ~/Downloads/Wizard-Vicuna-7B-Uncensored.Q4_0.gguf -p"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
@@ -115,3 +116,6 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Added by LM Studio CLI tool (lms)
+export PATH="$PATH:/home/thallyssonklein/.cache/lm-studio/bin"
